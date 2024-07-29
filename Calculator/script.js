@@ -20,6 +20,10 @@ document.getElementById('C').addEventListener('click',()=>{
     display.value = newDisplayValue.join("");
 })
 
-equals.addEventListener('click',()=>{
+display.addEventListener('keypress',equate);
+
+equals.addEventListener('click',equate);
+
+function equate(){
     display.value = eval(display.value)
-})
+}
