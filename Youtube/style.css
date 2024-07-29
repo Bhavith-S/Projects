@@ -1,0 +1,151 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:sans-serif,Arial;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:#0f0f0f;
+    color:white;
+}
+
+/* Nav */
+
+nav{
+    display:flex;
+    align-items: center;
+    /* gap:1.5rem; */
+    height:50px;
+    padding:1.75rem 1.5rem;
+    justify-content: space-between;
+}
+
+.nav{
+    display:flex;
+    gap:1.5rem;
+}
+
+/* Left nav */
+
+#hamburger{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    width:25px;
+}
+
+.bar{
+    background-color: white;
+    height:1px;
+    width:18px;
+}
+
+#thumbnail{
+    display: flex;
+    align-items: center;
+    gap:.25rem;
+}
+
+#yt-thumbnail{
+    font-family:monospace;
+    font-size:20px;
+    letter-spacing: -2.5px;
+    font-weight:bolder;
+}
+
+#region{
+    position: relative;
+    top:-8px;
+    left:2.5px;
+    font-size:small;
+    color:grey;
+    letter-spacing:-1px;
+}
+
+/* Center nav */
+
+#center-nav{
+    position: relative;
+    right:13rem;
+}
+
+#search-bar{
+    display: flex;
+}
+
+#search-input{
+    width:335px;
+    background-color:transparent;
+    border:1px solid #303030;
+    font-size:16px;
+    padding:.5rem;
+    padding-inline:.75rem;
+    border-radius:1.5rem 0rem 0rem 1.5rem;
+}
+
+#search-input::placeholder{
+    color:rgb(177, 177, 177);
+}
+
+#search-icon{
+    background-color: #222222;
+    border-radius:0rem 1.5rem 1.5rem 0rem;
+    width:4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid #303030;
+}
+
+#circle{
+    width:16px;
+    aspect-ratio: 1;
+    border-radius:50%;
+    border:1px solid white;
+}
+
+#circle-bar{
+    position:relative;
+    top:7.5px;
+    right:2px;
+    height:1px;
+    width:5px;
+    background-color: white;
+    transform:rotateZ(45deg);
+}
+
+/* Mic-icon */
+
+#mic{
+    position: relative;
+    right:10px;
+    background-color: #222222;
+    height:40px;
+    aspect-ratio: 1;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#head{
+    position: relative;
+    left:5px;
+    height:13px;
+    width:7px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#curve{
+    position: relative;
+    top:6px;
+    left:-3px;
+    height:10px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border:1px solid white;
+}
